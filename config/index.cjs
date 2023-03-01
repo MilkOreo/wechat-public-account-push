@@ -29,11 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '哒哒', year: '1999', date: '03-03',
+          type: '*生日', name: '哒哒农历', year: '1999', date: '03-03',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '哒哒', year: '1999', date: '04-18',
+          type: '生日', name: '哒哒阳历', year: '1999', date: '04-18',
         },
         {
           type: '节日', name: '搭讪哒哒纪念日', year: '2023', date: '01-29',
