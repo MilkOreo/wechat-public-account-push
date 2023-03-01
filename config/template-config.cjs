@@ -52,6 +52,37 @@ const TEMPLATE_CONFIG = [
       失败用户: {{fail_post_ids.DATA}}
     `
   },
+  {
+    id: '0003',
+    title: '哒哒宝贝, 早上好',
+    desc: `
+      **{{date.DATA}}**
+      
+      ---
+      
+      城市：{{city.DATA}}
+      
+      天气：{{weather.DATA}}
+      
+      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      
+      风向: {{wind_direction.DATA}}
+      
+      风级: {{wind_scale.DATA}}
+      
+      今天是我们在一起的第**{{love_day.DATA}}**天，也是我们相识的第**{{meet_day.DATA}}**天
+      
+      {{birthday_message.DATA}}
+      
+      {{moment_copyrighting.DATA}}
+      
+//       ---
+      
+//       {{moment_copyrighting.DATA}}
+      
+//       {{poetry_title.DATA}} {{poetry_content.DATA}}
+    `
+  },
 ]
 
 module.exports = TEMPLATE_CONFIG
