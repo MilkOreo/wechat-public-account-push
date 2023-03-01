@@ -64,16 +64,22 @@ const TEMPLATE_CONFIG = [
       
       天气：{{weather.DATA}}
       
-      气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+      气温(最高/最低):**{{max_temperature.DATA}}** / **{{min_temperature.DATA}}**
       
       风向: {{wind_direction.DATA}}
       
       风级: {{wind_scale.DATA}}
       
+      湿度: {{shidu.DATA}}
+      
+      空气质量: {{aqi.DATA}}
+      
+      
       今天是我们在一起的第**{{love_day.DATA}}**天，也是我们相识的第**{{meet_day.DATA}}**天
       
       {{birthday_message.DATA}}
       
+      {{earthy_love_words.DATA}}
     `
   },
 ]
