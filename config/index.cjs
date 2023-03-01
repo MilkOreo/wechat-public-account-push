@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '39e7fbec8f597aac4029ce014f447681',
 
-  PROVINCE: '浙江',
-  CITY: '杭州',
+  PROVINCE: '上海',
+  CITY: '上海',
 
   USERS: [
     {
@@ -36,15 +36,15 @@ const USER_CONFIG = {
           type: '生日', name: '哒哒', year: '1999', date: '04-18',
         },
         {
-          type: '节日', name: '纪念日', year: '2023', date: '01-29',
+          type: '节日', name: '搭讪哒哒纪念日', year: '2023', date: '01-29',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
-        // 在一起的日子
+        // 在一起纪念日
         { keyword: 'love_day', date: '2023-02-25' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        // 搭讪哒哒纪念日
+        { keyword: 'meet_day', date: '2023-01-29' },
       ],
     },
   ],
@@ -57,7 +57,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'PDU20641T0rJSiKIAESGrUYYxoJyT9n0IvSK6r2ra',
     }
   ],
 
