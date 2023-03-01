@@ -47,6 +47,36 @@ const USER_CONFIG = {
         { keyword: 'meet_day', date: '2023-01-29' },
       ],
     },
+    {
+      // 想要发送的人的名字
+      name: '哒哒',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'PDU20641T0rJSiKIAESGrUYYxoJyT9n0IvSK6r2ra',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '0003',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '04-18',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '哒哒农历', year: '1999', date: '03-03',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '哒哒阳历', year: '1999', date: '04-18',
+        },
+        {
+          type: '节日', name: '搭讪哒哒纪念日', year: '2023', date: '01-29',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起纪念日
+        { keyword: 'love_day', date: '2023-02-25' },
+        // 搭讪哒哒纪念日
+        { keyword: 'meet_day', date: '2023-01-29' },
+      ],
+    },
   ],
   USE_PASSAGE: 'push-deer',
 
