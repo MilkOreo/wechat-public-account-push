@@ -75,7 +75,7 @@ const TEMPLATE_CONFIG = [
       空气质量: **{{aqi.DATA}}**
       
       
-      今天是我们在一起的第**<font color=#DDA0DD>{{love_day.DATA}}</font>**天，也是我们相识的第**<font color=#DDA0DD>{{meet_day.DATA}}</font>**天
+      今天是我们在一起的第**{{love_day.DATA}}**天，也是我们相识的第**{{meet_day.DATA}}**天
       
       {{birthday_message.DATA}}
       
