@@ -74,13 +74,6 @@ const TEMPLATE_CONFIG = [
       
       {{birthday_message.DATA}}
       
-      {{moment_copyrighting.DATA}}
-      
-//       ---
-      
-//       {{moment_copyrighting.DATA}}
-      
-//       {{poetry_title.DATA}} {{poetry_content.DATA}}
     `
   },
 ]
