@@ -56,7 +56,7 @@ const TEMPLATE_CONFIG = [
     id: '0003',
     title: '哒哒宝贝, 早上好',
     desc: `
-      **{{date.DATA}}**
+      今天是**{{date.DATA}}**
       
       ---
       
